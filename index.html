@@ -779,6 +779,10 @@ body {
       <div class="category-card" data-category="Weapons" onclick="selectCategory('Weapons')">
         <div class="category-header">Weapons</div>
       </div>
+       <div class="category-card" data-category="Brainrot" onclick="selectCategory('Brainrot')">
+        <div class="category-header">Brainrot</div>
+      </div>
+      
       
     </div>
   </div>
@@ -844,6 +848,9 @@ body {
       else if (selectedCategory === 'Weapons') {
         numberOfOptions = 2;
       }
+       else if (selectedCategory === 'Brainrot') {
+        numberOfOptions = 1;
+      }
   
       for (let i = 1; i <= numberOfOptions; i++) {
         const option = document.createElement('div');
@@ -892,6 +899,9 @@ body {
           }
           else if (selectedCategory === 'Disney ') {
             window.location.href = `disney${i}.html`;
+          }
+           else if (selectedCategory === 'Brainrot ') {
+            window.location.href = `brainrot${i}.html`;
           }
         };
   
