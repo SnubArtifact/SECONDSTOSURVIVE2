@@ -782,6 +782,9 @@ body {
        <div class="category-card" data-category="Brainrot" onclick="selectCategory('Brainrot')">
         <div class="category-header">Brainrot</div>
       </div>
+       <div class="category-card" data-category="Movies" onclick="selectCategory('Movies')">
+        <div class="category-header">Movies</div>
+      </div>
       
       
     </div>
@@ -851,6 +854,10 @@ body {
        else if (selectedCategory === 'Brainrot') {
         numberOfOptions = 1;
       }
+      else if (selectedCategory === 'Movies') {
+        numberOfOptions = 2;
+        optionNames = ['Disney', 'Movies']; // Custom names for sports
+      }
   
       for (let i = 1; i <= numberOfOptions; i++) {
         const option = document.createElement('div');
@@ -897,12 +904,13 @@ body {
           } else if (selectedCategory === 'Weapons') {
             window.location.href = `weapons${i}.html`;
           }
-          else if (selectedCategory === 'Disney ') {
+          else if (selectedCategory === 'Movies') {
             window.location.href = `disney${i}.html`;
           }
            else if (selectedCategory === 'Brainrot') {
             window.location.href = `brainrot1.html`;
           }
+         
         };
   
         options.appendChild(option);
