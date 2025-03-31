@@ -431,7 +431,7 @@
         // Game variables
         let player1 = localStorage.getItem("player1") || "Player 1";
         let player2 = localStorage.getItem("player2") || "Player 2";
-       let questions = [
+      let questions = [
   "brainrot1_img1.png", "brainrot1_img2.png", "brainrot1_img3.png", "brainrot1_img4.png",
   "brainrot1_img5.png", "brainrot1_img6.png", "brainrot1_img7.png", "brainrot1_img8.png",
   "brainrot1_img9.png", "brainrot1_img10.png", "brainrot1_img11.png", "brainrot1_img12.png",
@@ -439,42 +439,43 @@
   "brainrot1_img17.png", "brainrot1_img18.png", "brainrot1_img19.png", "brainrot1_img20.png",
   "brainrot1_img21.png", "brainrot1_img22.png", "brainrot1_img23.png", "brainrot1_img24.png",
   "brainrot1_img25.png", "brainrot1_img26.png", "brainrot1_img27.png", "brainrot1_img28.png",
-  "brainrot1_img29.png", "brainrot1_img30.png", "brainrot1_img31.png", "brainrot1_img32.png"
+  "brainrot1_img29.png", "brainrot1_img30.png"
 ];
 
 let answers = {
-  "brainrot1_img1.png": "Brainrot",
-  "brainrot1_img2.png": "Skibidi Toilet",
-  "brainrot1_img3.png": "Meow Meow Meow Meow",
-  "brainrot1_img4.png": "Sigma Boi",
-  "brainrot1_img5.png": "Gyatt",
-  "brainrot1_img6.png": "Kezual",
-  "brainrot1_img7.png": "Amogus",
-  "brainrot1_img8.png": "Rizzler",
-  "brainrot1_img9.png": "Chill Guy",
-  "brainrot1_img10.png": "IShowSpeed",
-  "brainrot1_img11.png": "Ganji Chudail",
-  "brainrot1_img12.png": "Dabbu Uncle",
-  "brainrot1_img13.png": "Vartmaan",
-  "brainrot1_img14.png": "Juice pila do mosambi ka",
-  "brainrot1_img15.png": "Kis color ki chaddi pahne ho",
-  "brainrot1_img16.png": "Domingo",
-  "brainrot1_img17.png": "Ohio",
-  "brainrot1_img18.png": "Uorfi Javed",
-  "brainrot1_img19.png": "Sapne dekhna achi baat hai…",
-  "brainrot1_img20.png": "Wake up its the first of the month",
-  "brainrot1_img21.png": "Mewing",
-  "brainrot1_img22.png": "Luigi Mangione",
-  "brainrot1_img23.png": "Buff Shrek",
-  "brainrot1_img24.png": "Bing chilling",
-  "brainrot1_img25.png": "Grimace Shake",
-  "brainrot1_img26.png": "Dosa Idly Sambar Chutney Chutney",
-  "brainrot1_img27.png": "Burger King Foot Lettuce",
-  "brainrot1_img28.png": "Alpha",
-  "brainrot1_img29.png": "RCB",
-  "brainrot1_img30.png": "Bad Luck Brian",
-  "brainrot1_img31.png": "Rudy Giuliani"
+  "brainrot1_img1.png": "Skibidi Toilet",
+  "brainrot1_img2.png": "Meow Meow Meow Meow",
+  "brainrot1_img3.png": "Sigma Boi",
+  "brainrot1_img4.png": "Gyatt",
+  "brainrot1_img5.png": "Kezual",
+  "brainrot1_img6.png": "Amogus",
+  "brainrot1_img7.png": "Rizzler",
+  "brainrot1_img8.png": "Chill Guy",
+  "brainrot1_img9.png": "IShowSpeed",
+  "brainrot1_img10.png": "Ganji Chudail",
+  "brainrot1_img11.png": "Dabbu Uncle",
+  "brainrot1_img12.png": "Vartmaan",
+  "brainrot1_img13.png": "Juice pila do mosambi ka",
+  "brainrot1_img14.png": "Kis color ki chaddi pahne ho",
+  "brainrot1_img15.png": "Domingo",
+  "brainrot1_img16.png": "Ohio",
+  "brainrot1_img17.png": "Uorfi Javed",
+  "brainrot1_img18.png": "Sapne dekhna achi baat hai…",
+  "brainrot1_img19.png": "Wake up its the first of the month",
+  "brainrot1_img20.png": "Mewing",
+  "brainrot1_img21.png": "Luigi Mangione",
+  "brainrot1_img22.png": "Buff Shrek",
+  "brainrot1_img23.png": "Bing chilling",
+  "brainrot1_img24.png": "Grimace Shake",
+  "brainrot1_img25.png": "Dosa Idly Sambar Chutney Chutney",
+  "brainrot1_img26.png": "Burger King Foot Lettuce",
+  "brainrot1_img27.png": "Alpha",
+  "brainrot1_img28.png": "RCB",
+  "brainrot1_img29.png": "Bad Luck Brian",
+  "brainrot1_img30.png": "Rudy Giuliani",
+  
 };
+
 
 
 
